@@ -1,4 +1,6 @@
-﻿namespace QLHangHoa
+﻿using System.Windows.Forms;
+
+namespace QLHangHoa
 {
     partial class frmMain
     {
@@ -28,262 +30,304 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSystem = new System.Windows.Forms.Button();
+            this.btnApplication = new System.Windows.Forms.Button();
+            this.btnIntroduction = new System.Windows.Forms.Button();
+            this.btnContact = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grbApplication = new System.Windows.Forms.GroupBox();
+            this.grbWarehouse = new System.Windows.Forms.GroupBox();
+            this.grbSale = new System.Windows.Forms.GroupBox();
+            this.grbContact = new System.Windows.Forms.GroupBox();
+            this.grbIntroduction = new System.Windows.Forms.GroupBox();
+            this.grbSystem = new System.Windows.Forms.GroupBox();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnChangePassword = new System.Windows.Forms.Button();
+            this.btnAddAccount = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.grbApplication.SuspendLayout();
+            this.grbSystem.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ribbon
+            // groupBox1
             // 
-            this.ribbon.ExpandCollapseItem.Id = 0;
-            this.ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
-            this.ribbon.ExpandCollapseItem,
-            this.barButtonItem1,
-            this.barButtonItem2,
-            this.barButtonItem3,
-            this.barButtonItem4,
-            this.barButtonItem5,
-            this.barButtonItem6,
-            this.barButtonItem7,
-            this.barButtonItem8,
-            this.barButtonItem9,
-            this.barButtonItem10,
-            this.barButtonItem11});
-            this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 15;
-            this.ribbon.Name = "ribbon";
-            this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage1,
-            this.ribbonPage2,
-            this.ribbonPage3,
-            this.ribbonPage4});
-            this.ribbon.Size = new System.Drawing.Size(1026, 186);
-            this.ribbon.StatusBar = this.ribbonStatusBar;
+            this.groupBox1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.groupBox1.Controls.Add(this.btnSystem);
+            this.groupBox1.Controls.Add(this.btnApplication);
+            this.groupBox1.Controls.Add(this.btnIntroduction);
+            this.groupBox1.Controls.Add(this.btnContact);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.groupBox1.Location = new System.Drawing.Point(1, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(242, 351);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
             // 
-            // barButtonItem1
+            // btnSystem
             // 
-            this.barButtonItem1.Caption = "Log out";
-            this.barButtonItem1.Id = 2;
-            this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
-            this.barButtonItem1.Name = "barButtonItem1";
+            this.btnSystem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSystem.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnSystem.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnSystem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSystem.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSystem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnSystem.Location = new System.Drawing.Point(11, 23);
+            this.btnSystem.Name = "btnSystem";
+            this.btnSystem.Size = new System.Drawing.Size(211, 50);
+            this.btnSystem.TabIndex = 4;
+            this.btnSystem.Text = "System";
+            this.btnSystem.UseVisualStyleBackColor = false;
+            this.btnSystem.Click += new System.EventHandler(this.btnSystem_Click);
             // 
-            // barButtonItem2
+            // btnApplication
             // 
-            this.barButtonItem2.Caption = "Change password";
-            this.barButtonItem2.Id = 3;
-            this.barButtonItem2.Name = "barButtonItem2";
+            this.btnApplication.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnApplication.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnApplication.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnApplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApplication.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApplication.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnApplication.Location = new System.Drawing.Point(11, 109);
+            this.btnApplication.Name = "btnApplication";
+            this.btnApplication.Size = new System.Drawing.Size(211, 50);
+            this.btnApplication.TabIndex = 5;
+            this.btnApplication.Text = "Application";
+            this.btnApplication.UseVisualStyleBackColor = false;
+            this.btnApplication.Click += new System.EventHandler(this.btnApplication_Click);
             // 
-            // barButtonItem3
+            // btnIntroduction
             // 
-            this.barButtonItem3.Caption = "Add account";
-            this.barButtonItem3.Id = 4;
-            this.barButtonItem3.Name = "barButtonItem3";
+            this.btnIntroduction.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnIntroduction.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnIntroduction.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnIntroduction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIntroduction.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIntroduction.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnIntroduction.Location = new System.Drawing.Point(11, 195);
+            this.btnIntroduction.Name = "btnIntroduction";
+            this.btnIntroduction.Size = new System.Drawing.Size(211, 50);
+            this.btnIntroduction.TabIndex = 6;
+            this.btnIntroduction.Text = "Intrduction";
+            this.btnIntroduction.UseVisualStyleBackColor = false;
+            this.btnIntroduction.Click += new System.EventHandler(this.btnIntroduction_Click);
             // 
-            // barButtonItem4
+            // btnContact
             // 
-            this.barButtonItem4.Caption = "Exit";
-            this.barButtonItem4.Id = 5;
-            this.barButtonItem4.Name = "barButtonItem4";
+            this.btnContact.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnContact.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnContact.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnContact.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContact.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContact.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnContact.Location = new System.Drawing.Point(11, 281);
+            this.btnContact.Name = "btnContact";
+            this.btnContact.Size = new System.Drawing.Size(211, 50);
+            this.btnContact.TabIndex = 7;
+            this.btnContact.Text = "Contact";
+            this.btnContact.UseVisualStyleBackColor = false;
+            this.btnContact.Click += new System.EventHandler(this.btnContact_Click);
             // 
-            // barButtonItem5
+            // groupBox2
             // 
-            this.barButtonItem5.Caption = "Change password";
-            this.barButtonItem5.Id = 6;
-            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
-            this.barButtonItem5.Name = "barButtonItem5";
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.groupBox2.Controls.Add(this.grbApplication);
+            this.groupBox2.Controls.Add(this.grbContact);
+            this.groupBox2.Controls.Add(this.grbIntroduction);
+            this.groupBox2.Controls.Add(this.grbSystem);
+            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.DarkBlue;
+            this.groupBox2.Location = new System.Drawing.Point(249, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(266, 351);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
             // 
-            // barButtonItem6
+            // grbApplication
             // 
-            this.barButtonItem6.Caption = "Add account";
-            this.barButtonItem6.Id = 7;
-            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
-            this.barButtonItem6.Name = "barButtonItem6";
+            this.grbApplication.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbApplication.Controls.Add(this.grbWarehouse);
+            this.grbApplication.Controls.Add(this.grbSale);
+            this.grbApplication.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbApplication.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbApplication.Location = new System.Drawing.Point(10, 12);
+            this.grbApplication.Name = "grbApplication";
+            this.grbApplication.Size = new System.Drawing.Size(245, 332);
+            this.grbApplication.TabIndex = 0;
+            this.grbApplication.TabStop = false;
+            this.grbApplication.Text = "Application";
+            this.grbApplication.Visible = false;
             // 
-            // barButtonItem7
+            // grbWarehouse
             // 
-            this.barButtonItem7.Caption = "Exit";
-            this.barButtonItem7.Id = 8;
-            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
-            this.barButtonItem7.Name = "barButtonItem7";
+            this.grbWarehouse.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbWarehouse.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbWarehouse.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbWarehouse.Location = new System.Drawing.Point(6, 176);
+            this.grbWarehouse.Name = "grbWarehouse";
+            this.grbWarehouse.Size = new System.Drawing.Size(232, 153);
+            this.grbWarehouse.TabIndex = 1;
+            this.grbWarehouse.TabStop = false;
+            this.grbWarehouse.Text = "Warehouse";
             // 
-            // barButtonItem8
+            // grbSale
             // 
-            this.barButtonItem8.Caption = "Order list";
-            this.barButtonItem8.Id = 9;
-            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
-            this.barButtonItem8.Name = "barButtonItem8";
+            this.grbSale.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbSale.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.grbSale.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbSale.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbSale.Location = new System.Drawing.Point(6, 21);
+            this.grbSale.Name = "grbSale";
+            this.grbSale.Size = new System.Drawing.Size(232, 153);
+            this.grbSale.TabIndex = 0;
+            this.grbSale.TabStop = false;
+            this.grbSale.Text = "Sale";
             // 
-            // barButtonItem9
+            // grbContact
             // 
-            this.barButtonItem9.Caption = "Customer information";
-            this.barButtonItem9.Id = 10;
-            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
-            this.barButtonItem9.Name = "barButtonItem9";
+            this.grbContact.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbContact.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbContact.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbContact.Location = new System.Drawing.Point(10, 12);
+            this.grbContact.Name = "grbContact";
+            this.grbContact.Size = new System.Drawing.Size(245, 332);
+            this.grbContact.TabIndex = 0;
+            this.grbContact.TabStop = false;
+            this.grbContact.Text = "Contact";
+            this.grbContact.Visible = false;
             // 
-            // barButtonItem10
+            // grbIntroduction
             // 
-            this.barButtonItem10.Caption = "Order management";
-            this.barButtonItem10.Id = 11;
-            this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
-            this.barButtonItem10.Name = "barButtonItem10";
+            this.grbIntroduction.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbIntroduction.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbIntroduction.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbIntroduction.Location = new System.Drawing.Point(10, 12);
+            this.grbIntroduction.Name = "grbIntroduction";
+            this.grbIntroduction.Size = new System.Drawing.Size(245, 332);
+            this.grbIntroduction.TabIndex = 0;
+            this.grbIntroduction.TabStop = false;
+            this.grbIntroduction.Text = "Introduction";
+            this.grbIntroduction.Visible = false;
             // 
-            // barButtonItem11
+            // grbSystem
             // 
-            this.barButtonItem11.Caption = "Goods management";
-            this.barButtonItem11.Id = 12;
-            this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
-            this.barButtonItem11.Name = "barButtonItem11";
+            this.grbSystem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.grbSystem.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.grbSystem.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.grbSystem.Controls.Add(this.btnExit);
+            this.grbSystem.Controls.Add(this.btnChangePassword);
+            this.grbSystem.Controls.Add(this.btnAddAccount);
+            this.grbSystem.Controls.Add(this.btnLogOut);
+            this.grbSystem.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbSystem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.grbSystem.Location = new System.Drawing.Point(10, 12);
+            this.grbSystem.Margin = new System.Windows.Forms.Padding(0);
+            this.grbSystem.Name = "grbSystem";
+            this.grbSystem.Size = new System.Drawing.Size(245, 332);
+            this.grbSystem.TabIndex = 0;
+            this.grbSystem.TabStop = false;
+            this.grbSystem.Text = "System";
+            this.grbSystem.Visible = false;
             // 
-            // ribbonPage1
+            // btnExit
             // 
-            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup1});
-            this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "System";
+            this.btnExit.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnExit.Location = new System.Drawing.Point(22, 280);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(200, 40);
+            this.btnExit.TabIndex = 0;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
-            // ribbonPageGroup1
+            // btnChangePassword
             // 
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem5);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem6);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem7);
-            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.btnChangePassword.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnChangePassword.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnChangePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangePassword.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangePassword.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnChangePassword.Location = new System.Drawing.Point(22, 199);
+            this.btnChangePassword.Name = "btnChangePassword";
+            this.btnChangePassword.Size = new System.Drawing.Size(200, 40);
+            this.btnChangePassword.TabIndex = 0;
+            this.btnChangePassword.Text = "Change Password";
+            this.btnChangePassword.UseVisualStyleBackColor = false;
             // 
-            // ribbonPage2
+            // btnAddAccount
             // 
-            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup3,
-            this.ribbonPageGroup2});
-            this.ribbonPage2.Name = "ribbonPage2";
-            this.ribbonPage2.Text = "Application";
+            this.btnAddAccount.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnAddAccount.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnAddAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddAccount.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAccount.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnAddAccount.Location = new System.Drawing.Point(22, 118);
+            this.btnAddAccount.Name = "btnAddAccount";
+            this.btnAddAccount.Size = new System.Drawing.Size(200, 40);
+            this.btnAddAccount.TabIndex = 0;
+            this.btnAddAccount.Text = "Add Account";
+            this.btnAddAccount.UseVisualStyleBackColor = false;
             // 
-            // ribbonPageGroup3
+            // btnLogOut
             // 
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem8);
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem9);
-            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.Text = "Sale";
-            // 
-            // ribbonPageGroup2
-            // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem10);
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem11);
-            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
-            this.ribbonPageGroup2.Text = "WareHouse";
-            // 
-            // ribbonPage3
-            // 
-            this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup4});
-            this.ribbonPage3.Name = "ribbonPage3";
-            this.ribbonPage3.Text = "Introduction";
-            // 
-            // ribbonPageGroup4
-            // 
-            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
-            this.ribbonPageGroup4.Text = "ribbonPageGroup4";
-            // 
-            // ribbonPage4
-            // 
-            this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup5});
-            this.ribbonPage4.Name = "ribbonPage4";
-            this.ribbonPage4.Text = "Contact";
-            // 
-            // ribbonPageGroup5
-            // 
-            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
-            this.ribbonPageGroup5.Text = "ribbonPageGroup5";
-            // 
-            // ribbonStatusBar
-            // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 562);
-            this.ribbonStatusBar.Name = "ribbonStatusBar";
-            this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1026, 30);
-            // 
-            // defaultLookAndFeel1
-            // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Xmas 2008 Blue";
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl1.Location = new System.Drawing.Point(0, 186);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1026, 376);
-            this.panelControl1.TabIndex = 2;
+            this.btnLogOut.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnLogOut.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnLogOut.Location = new System.Drawing.Point(22, 37);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(200, 40);
+            this.btnLogOut.TabIndex = 0;
+            this.btnLogOut.Text = "Log Out";
+            this.btnLogOut.UseVisualStyleBackColor = false;
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 592);
-            this.Controls.Add(this.panelControl1);
-            this.Controls.Add(this.ribbonStatusBar);
-            this.Controls.Add(this.ribbon);
-            this.IsMdiContainer = true;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.ClientSize = new System.Drawing.Size(525, 353);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmMain";
-            this.Ribbon = this.ribbon;
-            this.StatusBar = this.ribbonStatusBar;
-            this.Text = "frmMain";
-            ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Main Menu";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.grbApplication.ResumeLayout(false);
+            this.grbSystem.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
-        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
+        private GroupBox groupBox1;
+        private Button btnSystem;
+        private Button btnApplication;
+        private Button btnIntroduction;
+        private Button btnContact;
+        private GroupBox groupBox2;
+        private GroupBox grbApplication;
+        private GroupBox grbWarehouse;
+        private GroupBox grbSale;
+        private GroupBox grbContact;
+        private GroupBox grbIntroduction;
+        private GroupBox grbSystem;
+        private Button btnExit;
+        private Button btnChangePassword;
+        private Button btnAddAccount;
+        private Button btnLogOut;
     }
 }

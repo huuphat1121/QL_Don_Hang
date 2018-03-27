@@ -7,9 +7,12 @@ U:\Work\Sources\QL_Hang_Hoa\QLHangHoa\obj\Debug\QLHangHoa.Properties.Resources.r
 U:\Work\Sources\QL_Hang_Hoa\QLHangHoa\obj\Debug\QLHangHoa.csproj.GenerateResource.Cache
 U:\Work\Sources\QL_Hang_Hoa\QLHangHoa\obj\Debug\QLHangHoa.exe
 U:\Work\Sources\QL_Hang_Hoa\QLHangHoa\obj\Debug\QLHangHoa.pdb
+U:\Work\Sources\QLDonHang\QLHangHoa\bin\Debug\QLHangHoa.exe.config
+U:\Work\Sources\QLDonHang\QLHangHoa\bin\Debug\QLHangHoa.exe
+U:\Work\Sources\QLDonHang\QLHangHoa\bin\Debug\QLHangHoa.pdb
 U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.frmMain.resources
 U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.Properties.Resources.resources
 U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.csproj.GenerateResource.Cache
-U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.exe.licenses
-U:\Work\Sources\QLDonHang\QLHangHoa\bin\Debug\QLHangHoa.exe.config
+U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.exe
+U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.pdb
 U:\Work\Sources\QLDonHang\QLHangHoa\obj\Debug\QLHangHoa.csprojResolveAssemblyReference.cache
